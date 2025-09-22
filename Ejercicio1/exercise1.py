@@ -16,6 +16,10 @@ download_urls = {
 
 base_dir = r"D:\USJ_2025_2026\Ingenieria de Datos\Git\ingenieria_de_datos\Ejercicio1"
 download_dir = os.path.join(base_dir, "downloads")
+os.makedirs(download_dir, exist_ok=True)
+
+
+
 
 #for url in download_urls:
     #filename=os.path.basename(url)
