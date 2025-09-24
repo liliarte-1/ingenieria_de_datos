@@ -39,10 +39,7 @@ for url in download_urls:
     
     #filtro para los zips
     except zipfile.BadZipFile:
-        print(f"Saltando {url} → no es un ZIP válido")
-    
-    except Exception as e:
-        print(f"Error con {url}: {e}")
+        print(f"{url} no es un ZIP valido")
 
 dataframes = []
     
