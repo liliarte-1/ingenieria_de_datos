@@ -1,5 +1,4 @@
 import os
-import logging
 import requests
 import pandas as pd
 import zipfile
@@ -22,7 +21,6 @@ download_dir = os.path.join(base_dir, "downloads")
 os.makedirs(download_dir, exist_ok=True)
 
 
-
 #al parecer, la propia libreria detecta que zips se han descargado ya, pero seria conveniente 
 # crear algun control de flujo para que solo se descarse si no esta ya descargado.
 
@@ -40,6 +38,9 @@ for url in download_urls:
     #filtro para los zips
     except zipfile.BadZipFile:
         print(f"{url} no es un ZIP valido")
+        
+    except Exception as e:
+        print(f"Error con {url}: {e}")
 
 dataframes = []
     
@@ -55,11 +56,15 @@ for csv in os.listdir(download_dir):
         df = pd.read_csv(path)
         dataframes.append(df)
 
-print(dataframes[0].head())
 
-    
-    #file_path=os.path.join(base_dir,"filename")        
-    #response=
+#mirar los datos nulos que hay en los df, y mostrar solo las columnas que tienen numeros y cuantos tienen
+for i, df in enumerate(dataframes, start=1):
+    nulls = df.isnull().sum()
+    if nulls.sum() > 0:   #hay al menos un nulo en el DataFrame
+        print(f"DataFrame {i} tiene nulos:")
+        print(nulls[nulls > 0])   #muestra solo las columnas con nulos
+        print()
 
-    #os.remove(filename)
+
+   
 
