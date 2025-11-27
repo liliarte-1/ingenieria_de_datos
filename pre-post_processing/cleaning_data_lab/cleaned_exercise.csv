@@ -1,0 +1,30 @@
+OrderID,CustomerName,Email,Phone,Country,OrderDate,Quantity,Price,CustomerAge,OrderStatus
+1001,John Doe,john@email.com,555-1234,USA,2023-01-15,5,19.99,28.0,Completed
+1002,Jane Smith,jane@gmail.com,555-2345,UNITED STATES,2023-01-16,2,49.99,35.0,Completed
+1003,John Doe,john@email.com,555-1234,USA,2023-01-15,5,19.99,28.0,Completed
+1010,Grace Lee,grace@email.com,555-8901,USA,2023-02-23,2,59.99,31.0,Completed
+1012,Grace Lee,grace@email.com,555-8901,USA,2023-02-23,2,59.99,31.0,Completed
+1015,Karen White,karen@email.com,555-2222,UNITED KINGDOM,2023-03-03,2,34.99,41.0,Shipped
+1017,Mia Taylor,mia.taylor@email.com,555-4444,USA,2023-03-05,6,24.99,27.0,Completed
+1019,Olivia Martin,olivia@email.com,555-6666,USA,2023-03-07,2,19.99,29.0,Completed
+1021,Antonio,antonio@email.com,555-7777,USA,2023-03-08,40000,440000.99,31.0,Completed
+1022,Quinn Rodriguez,quinn@email.com,555-8888,USA,2023-03-09,3,54.99,42.0,Completed
+1025,Olivia Martin,olivia@email.com,555-6666,USA,2023-03-07,2,19.99,29.0,Completed
+1030,Xavier Brooks,xavier@email.com,555-7878,USA,2023-03-16,2,64.99,28.0,Cancelled
+1031,Yara Santos,yara@email.com,555-9090,UNITED KINGDOM,2023-03-17,6,44.99,37.0,Completed
+1041,Ian Murphy,ian@email.com,555-9191,USA,2023-03-27,2,84.99,36.0,Completed
+1050,Rita Cooper,rita.cooper@email.com,555-8899,USA,2023-04-05,3,64.99,47.0,Shipped
+1053,Ursula Howard,ursula@email.com,555-2020,USA,2023-04-08,2,34.99,55.0,Completed
+1060,Amy Foster,amy.foster@email.com,555-8080,UK,2023-04-14,2,44.99,34.0,Pending
+1074,Olivia Martin,olivia@email.com,555-6666,USA,2023-03-07,2,19.99,29.0,Completed
+1076,Quinn Ford,quinn@email.com,555-5656,USA,2023-04-29,6,44.99,36.0,Shipped
+1078,Simon Berry,simon.berry@email.com,555-9090,USA,2023-05-01,8,19.99,31.0,Returned
+1086,Abigail Reed,abigail@email.com,555-7979,CANADA,2023-05-09,2,44.99,35.0,Completed
+1088,Chloe Watson,chloe@email.com,555-8080,USA,2023-05-11,6,19.99,26.0,Pending
+1091,Felix Carter,felix@email.com,555-2233,CANADA,2023-05-14,3,54.99,44.0,Completed
+1097,Logan Webb,logan@email.com,555-6677,CANADA,2023-05-20,5,84.99,37.0,Completed
+1102,Quinn Stevens,quinn@gmail.com,555-1010,USA,2023-05-25,6,24.99,28.0,Shipped
+1109,Willow Hunt,willow.hunt@email.com,555-7070,CANADA,2023-06-01,3,89.99,31.0,Completed
+1126,Nate Wells,nate@email.com,555-5656,CANADA,2023-06-18,8,79.99,29.0,Shipped
+1131,Sara Bell,sara.bell@email.com,555-2424,CANADA,2023-06-23,6,59.99,41.0,Shipped
+1159,Unity Bell,unity@email.com,555-6060,CANADA,2023-07-21,1,99.99,34.0,Pending
